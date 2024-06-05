@@ -1,3 +1,7 @@
+# 3.2.6 / 2024-06-05
+
+* lock rexml gem (inherited from ruby-dbus gem) version due to [issues](https://github.com/ruby/rexml/issues/131) after release.
+
 # 3.2.5 / 2021-05-07
 
 * fix keyword arguments in chef 17

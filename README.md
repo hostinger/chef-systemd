@@ -1,3 +1,6 @@
+> [!CAUTION]
+> Forked only to lock the version of rexml. Repo will not be actively maintained.
+
 # systemd chef cookbook
 
 [![Cookbook](http://img.shields.io/cookbook/v/systemd.svg)](https://github.com/nathwill/chef-systemd)
@@ -139,7 +142,7 @@ Prefixing section headings onto property names is necessary to avoid conflicts b
 #### Units & Unit Drop-Ins
 
 |Unit Type|Resource|Drop-In Resource|
-|---------|--------|----------------|  
+|---------|--------|----------------|
 |automount|systemd_automount|systemd_automount_drop_in|
 |mount|systemd_mount|systemd_mount_drop_in|
 |path|systemd_path|systemd_path_drop_in|
